@@ -11,37 +11,37 @@
     </div>
   <% end %>
 
-  <div>
+  <div class="field form-group">
     <%= form.label :name, style: "display: block" %>
-    <%= form.text_field :name %>
+    <%= form.text_field :name, class:"form-control" %>
   </div>
 
-  <div>
+  <div class="field form-group">
     <%= form.label :dorm, style: "display: block" %>
-    <%= form.check_box :dorm %>
+    <%= form.check_box :dorm, class:"form-control" %>
   </div>
 
-  <div>
+  <div class="field form-group">
     <%= form.label :experience, style: "display: block" %>
-    <%= form.number_field :experience %>
+    <%= form.number_field :experience, class:"form-control" %>
   </div>
 
-  <div>
+  <div class="field form-group">
     <%= form.label :teacher, style: "display: block" %>
-    <%= form.check_box :teacher %>
+    <%= form.check_box :teacher, class:"form-control" %>
   </div>
 
-  <div>
+  <div class="field form-group">
     <%= form.label :school, style: "display: block" %>
-    <%= form.text_field :school %>
+    <%= form.text_field :school, class:"form-control" %>
   </div>
 
-  <div>
+  <div class="field form-group">
     <%= form.label :language, style: "display: block" %>
-    <%= form.text_field :language %>
+    <%= form.text_field :language, class:"form-control" %>
   </div>
 
   <div>
-    <%= form.submit %>
+    <%= form.submit class:"btn btn-secondary my-button" %>
   </div>
 <% end %>

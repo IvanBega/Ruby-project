@@ -13,3 +13,9 @@
  *= require_tree .
  *= require_self
  */
+.my-button{
+    margin: 15px;
+}
+h1{
+    text-align: center;
+}
