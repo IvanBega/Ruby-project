@@ -51,6 +51,7 @@ group :development, :test do
 end
 
 group :development do
+  gem 'cucumber-rails', require: false
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
   # Use sqlite3 as the database for Active Record
@@ -71,6 +72,7 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
   gem "webdrivers"
+  gem 'cucumber-rails', require: false
 end
 
 gem "i18n", "~> 1.12"
